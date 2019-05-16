@@ -1,0 +1,5 @@
+com\kaige\controller\UserController.class
+com\kaige\entity\User.class
+com\kaige\dao\UserDao.class
+com\kaige\service\impl\UserServiceImpl.class
+com\kaige\service\UserService.class
