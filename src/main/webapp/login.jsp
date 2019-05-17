@@ -10,7 +10,7 @@
 
 
 <head>
-<title>登录</title>
+<title>登录1</title>
 
 <form action="/ssm/user/login.action" method="post">
 <label>账号：</label>
