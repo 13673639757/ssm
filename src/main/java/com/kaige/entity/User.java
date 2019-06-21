@@ -1,7 +1,6 @@
 package com.kaige.entity;
 
 public class User {
-	
 	private Integer id;
 	
     private String name;
@@ -45,8 +44,8 @@ public class User {
 		this.password = password;
 		this.age = age;
 	}
-    
-    
-    
-    
+
+
+
+
 }
