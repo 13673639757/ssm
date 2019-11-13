@@ -12,7 +12,7 @@ public interface UserService {
 
 	List<User> selectByList();
 	
-	void saveUser(User user);
+	void saveUser(User user)throws Exception;
 
     boolean updateUser(User user);
 

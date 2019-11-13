@@ -60,9 +60,14 @@ public class UserController {
      */
     @RequestMapping("addUser") 
     public String addUser(Model model,User user){
-        if(user != null){
-        	userServiceImpl.saveUser(user);
+        try {
+            if(user != null){
+                userServiceImpl.saveUser(user);
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
+
         return "redirect:/user/userList.action";
     }
     

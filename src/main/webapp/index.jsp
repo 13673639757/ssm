@@ -28,7 +28,7 @@ h3 {
 
 <body>
     <h3>
-        <a href="${path }/user/view.action">欢迎使用,点击登录</a>
+        <a href="${path }/user/view.action">欢迎使用,点击登录1</a>
     </h3>
 </body>
 </html>
